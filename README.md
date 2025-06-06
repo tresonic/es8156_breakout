@@ -4,7 +4,7 @@ Breakout PCB for the Everest Semiconductor [ES8156](http://www.everest-semi.com/
 
 ----
 
-Symbol and footprint generated with [easyeda2kicad.py](https://github.com/uPesy/easyeda2kicad.py):
+Symbol and footprint were generated to `./lib` with [easyeda2kicad.py](https://github.com/uPesy/easyeda2kicad.py) like:
 
 `easyeda2kicad --full --lcsc_id=C2887138 --output ./lib/lcsc_parts`
 
