@@ -1356,7 +1356,7 @@
 			)
 		)
 		(property "Value" "PJ-320D"
-			(at 0 8.05 90)
+			(at 0 6.336 90)
 			(layer "F.Fab")
 			(uuid "847553fe-defb-46d3-8c1f-4dd349074bfb")
 			(effects
