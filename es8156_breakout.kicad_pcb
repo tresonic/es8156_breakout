@@ -1132,7 +1132,7 @@
 		(uuid "250dc5bb-195e-4f94-af0f-ef9afb9ea49d")
 		(at 39.095 42.754 90)
 		(property "Reference" "U1"
-			(at 1.524 3.302 180)
+			(at 2.794 1.778 180)
 			(layer "F.SilkS")
 			(uuid "cc4770c7-0a80-4d37-bbff-355d3d4ed479")
 			(effects
@@ -1143,7 +1143,7 @@
 			)
 		)
 		(property "Value" "ES8156"
-			(at 0 5.08 180)
+			(at 3.048 1.27 180)
 			(layer "F.Fab")
 			(uuid "1ea91800-b8fd-44bf-a098-062fabf135c5")
 			(effects
@@ -2302,7 +2302,7 @@
 		(descr "Through hole straight pin header, 1x03, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x03 2.54mm single row")
 		(property "Reference" "J3"
-			(at 0 -2.38 0)
+			(at -2.794 -1.016 0)
 			(layer "F.SilkS")
 			(uuid "1300bf9f-4841-4a92-8a30-52256736da3a")
 			(effects
@@ -2610,19 +2610,6 @@
 			(justify left)
 		)
 	)
-	(gr_text "C1-4: 1u"
-		(at 33.507 52.66 0)
-		(layer "F.SilkS")
-		(uuid "3fc65c6e-9559-432f-aa6b-8f5e1bfe434d")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.2)
-				(bold yes)
-			)
-			(justify left)
-		)
-	)
 	(gr_text "VA"
 		(at 27.665 32.34 0)
 		(layer "F.SilkS")
@@ -2634,6 +2621,18 @@
 				(bold yes)
 			)
 			(justify left)
+		)
+	)
+	(gr_text "v0.1 tresonic 6/25"
+		(at 46.969 53.676 0)
+		(layer "F.SilkS")
+		(uuid "4875f9f3-3742-4f56-a9f1-6438f96f41fb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify right bottom)
 		)
 	)
 	(gr_text "VD"
@@ -2910,19 +2909,19 @@
 	)
 	(segment
 		(start 32.364 37.039)
+		(end 25.125 29.8)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 4)
+		(uuid "2c66a245-7ac8-4c57-982e-cf018529e472")
+	)
+	(segment
+		(start 36.682 38.182)
 		(end 35.539 37.039)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 4)
-		(uuid "1cf6332d-abc9-4eff-8bcc-abf7c96a0517")
-	)
-	(segment
-		(start 35.539 37.039)
-		(end 37.952 39.452)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 4)
-		(uuid "41c42623-bae9-434b-a190-46877b1b407c")
+		(uuid "4958f38f-cf7c-4708-b872-7892205e20a3")
 	)
 	(segment
 		(start 39.895 44.316)
@@ -2941,6 +2940,14 @@
 		(uuid "53f2df2a-32d9-4760-88a3-d537ea4f2691")
 	)
 	(segment
+		(start 37.952 38.182)
+		(end 36.682 38.182)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 4)
+		(uuid "7bc14117-ad1a-4fa1-b459-0f4f64e16494")
+	)
+	(segment
 		(start 39.895 44.254)
 		(end 39.895 44.316)
 		(width 0.2)
@@ -2949,12 +2956,12 @@
 		(uuid "8f3020c9-0a3b-451d-a22e-fbc057b2f035")
 	)
 	(segment
-		(start 25.125 29.8)
+		(start 35.539 37.039)
 		(end 32.364 37.039)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 4)
-		(uuid "a5ffc107-40c8-44a3-b557-7f3970936339")
+		(uuid "b26eb81f-7219-49ed-804a-7c8f47b23dd3")
 	)
 	(segment
 		(start 40.365 45.04)
@@ -2965,7 +2972,7 @@
 		(uuid "b5536d99-ff4b-43ef-aefa-fb0b4754788f")
 	)
 	(via
-		(at 37.952 39.452)
+		(at 37.952 38.182)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
@@ -2986,7 +2993,7 @@
 		(width 0.2)
 		(layer "B.Cu")
 		(net 4)
-		(uuid "2f130a05-3061-4492-be7d-8fe938afad5b")
+		(uuid "4d47507a-8717-4716-9843-209b7c48dc48")
 	)
 	(segment
 		(start 40.365 41.865)
@@ -2994,7 +3001,15 @@
 		(width 0.2)
 		(layer "B.Cu")
 		(net 4)
-		(uuid "5d2dcaba-32ff-4035-9e6b-4040c37227b3")
+		(uuid "7ee926e2-2956-4478-ad9c-06817567a71d")
+	)
+	(segment
+		(start 37.952 38.182)
+		(end 37.952 39.452)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 4)
+		(uuid "ef073796-f943-4745-a3a2-70b85ede223a")
 	)
 	(segment
 		(start 36.936 37.547)
