@@ -30,6 +30,9 @@ fp-info-cache
 *.xml
 *.csv
 
+# Local git-based history (KiCad 9.0+)
+.history
+
 # Plugin generated files
 bom/
 production/
